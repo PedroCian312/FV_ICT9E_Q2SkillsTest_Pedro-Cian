@@ -3,13 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Q2 Skills Test</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <style>
     
 </style>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1789004299-2727.png" alt="schoollogo" class="img-fluid rounded-cirle" style="height: 60px; width: 60px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Campuses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Enroll Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+        <form class="d-flex" id="form1">
+        <button class="btn btn-secondary" type="button">Portal</button>
+      </form>
+    </div>
+  </div>
+    </nav>
+
+<br>
+
+<div class="container" id="form2">
+    <h2>Student Information</h2>
+<form action="" id="admission">
+    <div class="row" id="">
+        <div class="col" id="fname">
+            <label for="name">First Name:</label>
+            <input type="text" class="name" id="name" placeholder="enter here">
+        </div>
+        <div class="col" id="lname">
+            <label for="name">Last Name:</label>
+            <input type="text" class="name" id="name" placeholder="enter here">
+        </div>
+        <div class="col">
+            <label for="birthday">Birthday:</label>
+            <input type="date" class="date" id="bdaydate">
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+        <div class="col">
+            <label for="gender">Gender:</label>
+            <select class="form-select" id="selection" name="select list">
+                <option>Female</option>
+                <option>Male</option>
+                <option>Non-Binary</option>
+            </select>
+        </div>
+
+        <div class="col">
+            <label for="gradelevel">Grade Level:</label>
+            <select class="form-select" id="selection2" name="select list 2">
+                <option>Senior High School (SHS) (grade 11-12)</option>
+                <option>Junior High School (JHS) (grade 7-10)</option>
+                <option>Intermediate (grade 4-6)</option>
+                <option>Primary (grade 1-3)</option>
+                <option>CASA (Pre-Kindergarten to Kindergarten)</option>
+                </select>
+        </div>
+
+        <br><br>
+
+    <div class="row" id="">
+        <h2>Contact Information</h2>
+            <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input type="email" class="email" id="email" placeholder="Email" name="email">
+            </div>
+
+            <div class="mb-3">
+                <label for="contactnumber">Contact Number:</label>
+                <input type="text" class="number" id="number" placeholder="Number" name="Number">
+            </div>
+        </div>
+    </div>
+
+<br><br>
+
+    <div class="row" id="">
+        <h2>Other Information</h2>
+            <div class="form-check">
+                <h4>Mode of Learning</h4>
+                <input type="checkbox" class="checkbox" id="check1" name="option1" value="checked">
+                <label class="label" for="check1">Online</label>
+                <input type="checkbox" class="checkbox" id="check2" name="option2" value="checked">
+                <label class="label" for="check2">Face to Face</label>
+                <input type="checkbox" class="checkbox" id="check3" name="option3" value="checked">
+                <label class="label" for="check3">Hybrid</label>
+            </div>
+    </div>
+
+    <div class="row" id="">
+        <h4>I want to receive updates through the given email</h4>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="check-input" id="check" value="yes">
+            <label class="form-check-label" for="check">I agree</label>
+        </div>
+    </div>
+</div>
+</form>
+</div>
 </body>
 </html>
